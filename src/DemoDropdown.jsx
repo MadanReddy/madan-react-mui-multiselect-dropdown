@@ -23,9 +23,9 @@ function DemoDropdown() {
 
   const populateData = () => {
     const employeesData = [
-      { id: 1, name: 'Bhushan' },
-      { id: 2, name: 'Vishal' },
-      { id: 3, name: 'Ravindra' }
+      { id: 1, name: 'Madan' },
+      { id: 2, name: 'EllieMae' },
+      { id: 3, name: 'Test' }
     ]
     employees.forEach((v, i) => {
       v['path'] = `https://source.unsplash.com/random/${i}`
